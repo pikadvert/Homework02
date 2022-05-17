@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Inputs</title>
+    <link rel="icon" href="laptop.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="inputsForm">
+        <h3>Регистрация</h3>
+        <form action="#" method="get">
+            <ul class="input_wrapper">
+                <li><label for="text">Фамилия:</label>
+                    <input type="text" name="Фамилия" id="Фамилия" placeholder="Введите фамилию"/>
+                </li>
+                <li><label for="text">Имя:</label>
+                    <input type="text" name="Имя" id="Имя" placeholder="Введите имя"/>
+                </li>
+                <li><label for="text">Отчество:</label>
+                    <input type="text" name="Отчество" id="Отчество" placeholder="Введите отчество"/>
+                </li>
+                <li>
+                    <ul><label for="text">Дата рождения:</label>
+                        <li><input type="number" name="date" id="date" placeholder="Дата" min="01" max="31"/></li>
+                        <li><input type="number" name="month" id="month" placeholder="Месяц" min="01" max="12" /></li>
+                        <li><input type="number" name="year" id="year" placeholder="Год" min="1900" max="2100" /></li>
+                    </ul>
+                </li>
+                <li><label for="text">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email"/>
+                </li>
+                <li><label for="text">Пароль:</label>
+                    <input type="password" name="password" id="password" placeholder="Введите пароль"/>
+                </li>
+                <li><label for="text">Подтвердите пароль:</label>
+                    <input type="password" name="password" id="password" placeholder="Введите пароль еще раз"/>
+                </li>
+                <li><label for="text">Телефон:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Введите номер телефона"/>
+                </li>
+                <li><label for="text">Адрес:</label>
+                    <textarea name="Адрес" id="Адрес" cols="20" rows="5" placeholder="Введите адрес"></textarea>
+                </li>
+                <li><label for="text">Пол:</label>
+                    <input type="radio" name="Пол" id="Пол" value="Male"/> Мужской
+                    <input type="radio" name="Пол" id="Пол" value="Famale"/> Женский
+                </li>
+                <li><input type="checkbox" name="checkbox" id="checkbox"/> 
+                    <label class="check" for="text">Я согласен(на) c <a href="#">условиями</a></label>
+                </li>                
+                <button type="submit">Регистрация</button>
+                <button type="reset">Очистить форму</button>
+            </ul>
+        </form>    
+    </div>
+</body>
+</html>

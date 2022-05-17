@@ -25,4 +25,96 @@
     left: 0;
     z-index: 1;
 }
+form {
+  margin-top: -20px;
+} 
+
+h3 {
+  padding: 3%;
+  font-size: 25px;
+  color:#856d42
+}
+.inputsForm {
+    width: 750px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: #fbf8e5;
+    box-shadow: 5px 5px 15px 5px #4D4D4D;
+}
+
+.inputsForm ul {
+  list-style:none;
+}
+
+.inputsForm ul li ul{
+  position: relative;
+  margin-left: -43px;
+}
+
+.inputsForm ul li ul li{
+  list-style:none;
+  display: inline-block;
+}
+
+.inputsForm li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+label {
+/*   width: 50%; */
+  color:#856d42;
+  font-weight: bold;
+  display: inline-block; 
+  width: 180px; 
+  text-align: right; 
+  margin-right: 20px;
+} 
+
+textarea {
+  resize: horizontal;
+  width: 450px;
+}
+
+input [type="text"],[type="email"],[type="password"],[type="tel"],[type="text"] {
+  width:450px; 
+  margin-right: 20px;
+} 
+
+
+input[type="checkbox"]{
+  position: relative;
+  left: 200px;
+  z-index: 1;
+}
+
+
+button:hover {
+  background: #447ab2;
+  color: #fbf8e5;
+}
+
+
+
+button {
+  display: inline-block; 
+  position: relative;
+  left: 204px;
+}
+
+
+
+label [type = "check"] {
+  display: inline-block; 
+  position: relative;
+  left: 220px;
+}
+
+.check {
+  width: 250px;
+  position: relative;
+  margin-left: 160px;
+}
 
